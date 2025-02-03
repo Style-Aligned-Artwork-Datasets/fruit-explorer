@@ -1,0 +1,17 @@
+{
+    "default": 0,
+    "data": [
+        {
+            "name": "fruit-SALAD_1k",
+            "directory": "fruit-salad_1k"
+        },
+        {
+            "name": "Apples vs. Oranges",
+            "directory": "apples_vs_oranges"
+        },
+        {
+            "name": "fruit-SALAD_10k",
+            "directory": "fruit-salad_10k"
+        }
+    ]
+}

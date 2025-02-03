@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/fruit-explorer/static/css/main.083edc9e.chunk.css",
+    "main.js": "/fruit-explorer/static/js/main.28e1a096.chunk.js",
+    "main.js.map": "/fruit-explorer/static/js/main.28e1a096.chunk.js.map",
+    "runtime-main.js": "/fruit-explorer/static/js/runtime-main.e0212d89.js",
+    "runtime-main.js.map": "/fruit-explorer/static/js/runtime-main.e0212d89.js.map",
+    "static/js/2.5b2cc017.chunk.js": "/fruit-explorer/static/js/2.5b2cc017.chunk.js",
+    "static/js/2.5b2cc017.chunk.js.map": "/fruit-explorer/static/js/2.5b2cc017.chunk.js.map",
+    "index.html": "/fruit-explorer/index.html",
+    "static/css/main.083edc9e.chunk.css.map": "/fruit-explorer/static/css/main.083edc9e.chunk.css.map",
+    "static/js/2.5b2cc017.chunk.js.LICENSE.txt": "/fruit-explorer/static/js/2.5b2cc017.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e0212d89.js",
+    "static/js/2.5b2cc017.chunk.js",
+    "static/css/main.083edc9e.chunk.css",
+    "static/js/main.28e1a096.chunk.js"
+  ]
+}

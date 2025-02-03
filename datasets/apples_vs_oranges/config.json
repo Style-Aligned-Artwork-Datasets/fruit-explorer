@@ -1,0 +1,66 @@
+{
+    "title": "Apples vs. Oranges",
+    "datasetInfo": "Subset of the fruit-SALAD benchmark with 100 instances of apples and oranges in 10 styles. Image generation with StableDiffusionXL and StyleAlign.",
+    "embeddings": [
+        {
+            "name": "CLIP-ViT-B-16_L400M (MDS)",
+            "file": "CLIP-ViT-B-16_L400M.json"
+        },
+        {
+            "name": "DINO-ViT-B-16_IN1k (MDS)",
+            "file": "DINO-ViT-B-16_IN1k.json"
+        }
+    ],
+    "clusters": {
+        "clusterList": [
+            "category",
+            "style"
+        ],
+        "clusterColors": [
+            "#FFA500",
+            "#FF0000",
+            "#FFFFFF",
+            "#0000FF",
+            "#FFFF00",
+            "#00FFFF",
+            "#00FF00",
+            "#FF00FF",
+            "#8B00FF",
+            "#8B4513"
+        ]
+    },
+    "total": 2000,
+    "sliders": [
+        {
+            "id": "instance",
+            "title": "instance",
+            "info": "",
+            "typeNumber": "int",
+            "color": "#8b8188",
+            "min": 0,
+            "max": 99
+        }
+    ],
+    "info": [
+        "category",
+        "style",
+        "instance",
+        "prompt"
+    ],
+    "search": [
+        {
+            "columnField": "category",
+            "type": "selection"
+        },
+        {
+            "columnField": "style",
+            "type": "selection"
+        }
+    ],
+    "url_prefix": "https://cudan-data.tlu.ee/CSN/SALAD/",
+    "sprite_side": 32,
+    "sprite_dir": "apples_vs_oranges",
+    "sprite_number": 2,
+    "sprite_image_size": 64,
+    "sprite_actual_size": 2048
+}

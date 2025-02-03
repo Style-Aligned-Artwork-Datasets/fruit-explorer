@@ -1,0 +1,110 @@
+{
+    "title": "fruit-SALAD_1k",
+    "datasetInfo": "Subset of the fruit-SALAD benchmark with 10 instances of 10 fruit categories in 10 styles. Image generation with StableDiffusionXL and StyleAlign.",
+    "embeddings": [
+        {
+            "name": "Grid View 3D",
+            "file": "grid.json"
+        },
+        {
+            "name": "ViT-H-14_IN21k (t-SNE)",
+            "file": "ViT-H-14_IN21k.json"
+        },
+        {
+            "name": "Vit-B-32_IN21k (t-SNE)",
+            "file": "Vit-B-32_IN21k.json"
+        },
+        {
+            "name": "CLIP-ViT-B-16_OA (t-SNE)",
+            "file": "CLIP-ViT-B-16_OA.json"
+        },
+        {
+            "name": "CLIP-ViT-B-16_L2B (t-SNE)",
+            "file": "CLIP-ViT-B-16_L2B.json"
+        },
+        {
+            "name": "DINO-ViT-B-16_IN1k (t-SNE)",
+            "file": "DINO-ViT-B-16_IN1k.json"
+        },
+        {
+            "name": "DINOv2-B_LVD (t-SNE)",
+            "file": "DINOv2-B_LVD.json"
+        },
+        {
+            "name": "ResNet50_IN1k (t-SNE)",
+            "file": "ResNet50_IN1k.json"
+        },
+        {
+            "name": "CLIP-RN50_OA (t-SNE)",
+            "file": "CLIP-RN50_OA.json"
+        },
+        {
+            "name": "VGG19_IN1K (t-SNE)",
+            "file": "VGG19_IN1K.json"
+        },
+        {
+            "name": "Xception_IN1k (t-SNE)",
+            "file": "Xception_IN1k.json"
+        },
+        {
+            "name": "ConvNeXt-B_L400M (t-SNE)",
+            "file": "ConvNeXt-B_L400M.json"
+        },
+        {
+            "name": "CompressionEnsembles (t-SNE)",
+            "file": "CompressionEnsembles.json"
+        }
+    ],
+    "clusters": {
+        "clusterList": [
+            "category",
+            "style"
+        ],
+        "clusterColors": [
+            "#FFA500",
+            "#FF0000",
+            "#FFFFFF",
+            "#0000FF",
+            "#FFFF00",
+            "#00FFFF",
+            "#00FF00",
+            "#FF00FF",
+            "#8B00FF",
+            "#8B4513"
+        ]
+    },
+    "total": 1000,
+    "sliders": [
+        {
+            "id": "instance",
+            "title": "instance",
+            "info": "",
+            "typeNumber": "int",
+            "color": "#838084",
+            "min": 0,
+            "max": 9
+        }
+    ],
+    "info": [
+        "category",
+        "style",
+        "instance",
+        "prompt"
+    ],
+    "search": [
+        {
+            "columnField": "category",
+            "type": "selection"
+        },
+        {
+            "columnField": "style",
+            "type": "selection"
+        }
+    ],
+    "url_prefix": "https://cudan-data.tlu.ee/CSN/SALAD/",
+    "sprite_side": 32,
+    "sprite_dir": "fruit-salad_1k",
+    "sprite_number": 1,
+    "sprite_image_size": 64,
+    "sprite_actual_size": 2048
+}
