@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fruit-explorer/static/css/main.083edc9e.chunk.css",
-    "main.js": "/fruit-explorer/static/js/main.c7a89f07.chunk.js",
-    "main.js.map": "/fruit-explorer/static/js/main.c7a89f07.chunk.js.map",
+    "main.js": "/fruit-explorer/static/js/main.b1bcb955.chunk.js",
+    "main.js.map": "/fruit-explorer/static/js/main.b1bcb955.chunk.js.map",
     "runtime-main.js": "/fruit-explorer/static/js/runtime-main.e0212d89.js",
     "runtime-main.js.map": "/fruit-explorer/static/js/runtime-main.e0212d89.js.map",
     "static/js/2.d5f3ec47.chunk.js": "/fruit-explorer/static/js/2.d5f3ec47.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.e0212d89.js",
     "static/js/2.d5f3ec47.chunk.js",
     "static/css/main.083edc9e.chunk.css",
-    "static/js/main.c7a89f07.chunk.js"
+    "static/js/main.b1bcb955.chunk.js"
   ]
 }
